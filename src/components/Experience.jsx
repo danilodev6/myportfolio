@@ -42,14 +42,25 @@ export const Experience = () => {
 
   const fitCamera = async () => {
     if (currentPage === "hero") {
-      controls.current.smoothTime = 1.2;
-      // controls.current.fitToBox(meshFitCameraHero.current, true);
-      controls.current.setLookAt(2, 1, 4, 9, 1, -5, true);
+      controls.current.smoothTime = 0.7;
+      await controls.current.fitToBox(meshFitCameraHero.current, true);
+      controls.current.setLookAt(0.5, 1, 8.3, 9, 1, -5, true);
     } else {
       controls.current.smoothTime = 1.6;
-      controls.current.fitToBox(meshFitCameraHome.current, true);
+      await controls.current.fitToBox(meshFitCameraHome.current, true);
     }
   };
+
+  // const fitCamera = async () => {
+  //   if (currentPage === "hero") {
+  //     controls.current.smoothTime = 1.2;
+  //     controls.current.fitToBox(meshFitCameraHero.current, true);
+  //     controls.current.setLookAt(2, 1, 4, 9, 1, -5, true);
+  //   } else {
+  //     controls.current.smoothTime = 1.6;
+  //     controls.current.fitToBox(meshFitCameraHome.current, true);
+  //   }
+  // };
 
   useEffect(() => {
     intro();

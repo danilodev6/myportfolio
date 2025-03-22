@@ -89,53 +89,6 @@ body {
   letter-spacing: 1px;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideUp {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@media (min-width: 768px) {
-  .mobile-menu-overlay {
-    display: none;
-  }
-}
-
-@media (max-width: 1024px) {
-  .headerSmall {
-    padding-inline: 1rem;
-  }
-}
-
-/*.header {*/
-/*  display: flex;*/
-/*  justify-content: space-between;*/
-/*  align-items: center;*/
-/*  padding-inline: 0rem;*/
-/*  padding-block: 2rem;*/
-/*  max-width: 64rem;*/
-/*  margin-inline: auto;*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  background-color: transparent;*/
-/*  z-index: 10;*/
-/*  inset-inline: 0;*/
-/*}*/
-
 .cta {
   width: 100%;
   display: flex;
@@ -254,4 +207,36 @@ body {
   height: 100vh;
   background-color: red;
   transform-origin: top;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-overlay {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headerSmall {
+    padding-inline: 1rem;
+  }
 }
