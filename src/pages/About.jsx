@@ -69,7 +69,7 @@ const About = () => {
               {skills.map((skill) => (
                 <div className="block-container w-20 h-20" key={skill.name}>
                   <div className="btn-back rounded-xl" />
-                  <div className="btn-front2 rounded-xl flex justify-center items-center">
+                  <div className="btn-front2 hover:scale-[1.05] rounded-xl flex justify-center items-center">
                     <img
                       src={skill.imageUrl}
                       alt={skill.name}

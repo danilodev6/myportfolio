@@ -211,7 +211,7 @@ const projects = [
     name: "To-do List",
     description:
       "Basic to-do list application built with vanilla JS, IT demonstrate fundamental DOM manipulation, event handling, and local storage usage",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+    link: "https://github.com/danilodev6/todo-list",
   },
 ];
 
