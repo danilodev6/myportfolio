@@ -41,15 +41,33 @@ export const Experience = () => {
   };
 
   const fitCamera = async () => {
+    const isMobile = window.innerWidth <= 1024;
+
     if (currentPage === "hero") {
-      controls.current.smoothTime = 0.7;
+      controls.current.smoothTime = 0.6;
       await controls.current.fitToBox(meshFitCameraHero.current, true);
-      controls.current.setLookAt(0.5, 1, 8.3, 9, 1, -5, true);
+
+      if (isMobile) {
+        controls.current.setLookAt(0.5, 1, 8.3, 9, 1, -5, true); // Mobile settings
+      } else {
+        controls.current.setLookAt(2, 1, 4, 9, 1, -5, true); // Desktop settings
+      }
     } else {
       controls.current.smoothTime = 1.6;
       await controls.current.fitToBox(meshFitCameraHome.current, true);
     }
   };
+
+  // const fitCamera = async () => {
+  //   if (currentPage === "hero") {
+  //     controls.current.smoothTime = 0.7;
+  //     await controls.current.fitToBox(meshFitCameraHero.current, true);
+  //     controls.current.setLookAt(0.5, 1, 8.3, 9, 1, -5, true);
+  //   } else {
+  //     controls.current.smoothTime = 1.6;
+  //     await controls.current.fitToBox(meshFitCameraHome.current, true);
+  //   }
+  // };
 
   // const fitCamera = async () => {
   //   if (currentPage === "hero") {
