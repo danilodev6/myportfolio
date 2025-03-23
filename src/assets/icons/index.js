@@ -30,6 +30,8 @@ import python from "./python.svg";
 import django from "./django.svg";
 import solidity from "./solidity.svg";
 import sql from "./sql.svg";
+import githublight from "./github-light.png";
+import linkedinlight from "./linkedin-light.png";
 
 export {
   css,
@@ -64,4 +66,6 @@ export {
   django,
   solidity,
   sql,
+  githublight,
+  linkedinlight,
 };

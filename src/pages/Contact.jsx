@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import Navbar from "../components/NavBar.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -213,6 +214,14 @@ const Contact = () => {
               )}
             </motion.button>
           </form>
+        </motion.div>
+        <motion.div
+          className="mt-4 mx-auto text-center"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <Footer />
         </motion.div>
       </section>
     </>

@@ -101,7 +101,7 @@ const MyRoom = ({ html, ...props }) => {
               position-y={0.95}
               title={""}
               description={
-                "I love building projects as a way to learn, experiment, and improve my skills."
+                "I love building projects as a way to learn, experiment, and improve my skills"
               }
               CTA={"Visit my portfolio"}
               bgColor={"purple1"}
@@ -118,7 +118,7 @@ const MyRoom = ({ html, ...props }) => {
               position-y={-0.15}
               title={""}
               description={
-                "I'm a full-stack developer based in Argentina, passionate about writing clean and efficient code."
+                "I'm a full-stack developer based in Argentina, currently exploring Solidity and blockchain development"
               }
               CTA={"Learn more about me"}
               bgColor={"purple3"}

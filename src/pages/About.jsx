@@ -42,9 +42,13 @@ const About = () => {
             <div className="mt-8 text-gray-300 leading-relaxed space-y-4">
               <p>
                 An enthusiastic developer specializing in both front-end and
-                back-end development. I build responsive, interactive, and
-                scalable applications with a passion for learning new
-                technologies and applying them to real-world projects.
+                back-end development,{" "}
+                <span className="font-semibold">
+                  currently exploring Solidity and blockchain development
+                </span>
+                . I build responsive, interactive, and scalable applications
+                with a passion for learning new technologies and applying them
+                to real-world projects.
               </p>
               <p>
                 When I'm not coding, I enjoy exploring new tech, traveling, and

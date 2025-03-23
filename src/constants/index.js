@@ -21,6 +21,8 @@ import {
   typescript,
   sql,
   django,
+  githublight,
+  linkedinlight,
 } from "../assets/icons";
 
 const skills = [
@@ -148,19 +150,14 @@ const experiences = [
 
 const socialLinks = [
   {
-    name: "Contact",
-    iconUrl: contact,
-    link: "/contact",
-  },
-  {
     name: "GitHub",
-    iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    iconUrl: githublight,
+    link: "https://github.com/danilodev6",
   },
   {
     name: "LinkedIn",
-    iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    iconUrl: linkedinlight,
+    link: "https://www.linkedin.com/in/danilozabalet",
   },
 ];
 
