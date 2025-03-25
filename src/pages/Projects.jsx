@@ -70,7 +70,7 @@ const Projects = () => {
                         className="font-semibold text-purple3"
                       >
                         {" "}
-                        Live Link
+                        Code Link
                       </Link>
                     </div>
                   </div>
