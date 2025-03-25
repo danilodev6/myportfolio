@@ -82,33 +82,6 @@ const Contact = () => {
       </motion.div>
 
       <section className="bg-[#171720] min-h-screen flex flex-col items-center justify-center text-white px-6 py-26 relative overflow-hidden">
-        {/* Animated background elements */}
-        <motion.div
-          className="absolute top-1/4 left-1/3 w-96 h-96 rounded-full bg-purple-900/5 blur-3xl"
-          animate={{
-            x: [0, 40, 0],
-            y: [0, -30, 0],
-          }}
-          transition={{
-            duration: 15,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-        />
-
-        <motion.div
-          className="absolute bottom-1/3 right-1/4 w-64 h-64 rounded-full bg-blue-900/5 blur-3xl"
-          animate={{
-            x: [0, -30, 0],
-            y: [0, 20, 0],
-          }}
-          transition={{
-            duration: 12,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-        />
-
         {/* Heading */}
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
