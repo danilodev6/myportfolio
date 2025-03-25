@@ -81,13 +81,13 @@ const Contact = () => {
         <Navbar />
       </motion.div>
 
-      <section className="bg-[#171720] min-h-screen flex flex-col items-center justify-center text-white px-6 py-26 relative overflow-hidden">
+      <section className="bg-[#171720] min-h-dvh flex flex-col items-center justify-center text-white px-6 py-16 relative overflow-hidden">
         {/* Heading */}
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-5xl font-bold mb-10 bg-gradient-to-r from-purple1 to-purple3 bg-clip-text text-transparent relative z-10"
+          className="text-5xl font-bold mb-10 mt-14 bg-gradient-to-r from-purple1 to-purple3 bg-clip-text text-transparent relative z-10 text-center"
         >
           Get in Touch
         </motion.h1>
