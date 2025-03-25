@@ -81,7 +81,7 @@ const Contact = () => {
         <Navbar />
       </motion.div>
 
-      <section className="bg-[#171720] min-h-screen flex flex-col items-center justify-center text-white px-6 relative overflow-hidden">
+      <section className="bg-[#171720] min-h-screen flex flex-col items-center justify-center text-white px-6 py-26 relative overflow-hidden">
         {/* Animated background elements */}
         <motion.div
           className="absolute top-1/4 left-1/3 w-96 h-96 rounded-full bg-purple-900/5 blur-3xl"
