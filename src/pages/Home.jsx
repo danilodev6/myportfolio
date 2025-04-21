@@ -21,7 +21,7 @@ export const Home = () => {
       <div className="w-full h-dvh flex items-center justify-center">
         <Canvas shadows camera={{ position: [0, 1.5, 8], fov: 42 }}>
           <color attach="background" args={["#171720"]} />
-          {enableFog && <fog attach="fog" args={["#171720", 8, 17]} />}
+          {enableFog && <fog attach="fog" args={["#171720", 11, 17]} />}
           <Suspense>
             <Experience />
           </Suspense>

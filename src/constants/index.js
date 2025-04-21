@@ -175,7 +175,7 @@ const projects = [
     theme: "btn-back-green",
     name: "TicTacToePRO version",
     description:
-      "React-based game featuring state managment , game logic and a dynamic UI",
+      "React-based game featuring state management , game logic and a dynamic UI",
     link: "https://github.com/danilodev6/TicTacToePRO",
   },
   {
@@ -191,7 +191,7 @@ const projects = [
     theme: "btn-back-pink",
     name: "Connect Four Game",
     description:
-      "a React-powered strategy game where two players compete to connect four pieces in a row. With a sleek interface and real-time updates, state managment and game logic",
+      "a React-powered strategy game where two players compete to connect four pieces in a row. With a sleek interface and real-time updates, state management and game logic",
     link: "https://github.com/danilodev6/4inline",
   },
   {

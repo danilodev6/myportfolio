@@ -36,7 +36,7 @@ export const Experience = () => {
     controls.current.smoothTime = 1.5;
     setTimeout(() => {
       setCurrentPage("home");
-    }, 1200);
+    }, 1000);
     fitCamera();
   };
 
