@@ -32,11 +32,11 @@ export const Experience = () => {
   });
 
   const intro = async () => {
-    controls.current.dolly(-22);
+    controls.current.dolly(-19);
     controls.current.smoothTime = 1.5;
     setTimeout(() => {
       setCurrentPage("home");
-    }, 1000);
+    }, 900);
     fitCamera();
   };
 
