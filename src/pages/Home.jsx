@@ -26,7 +26,7 @@ export const Home = () => {
             <Experience />
           </Suspense>
           <EffectComposer>
-            <Bloom mipmapBlur intensity={1.3} />
+            <Bloom mipmapBlur intensity={0.35} />
           </EffectComposer>
         </Canvas>
         <UI />

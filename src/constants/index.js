@@ -165,6 +165,14 @@ const projects = [
   {
     iconUrl: summiz,
     theme: "btn-back-red",
+    name: "Auction App",
+    description:
+      "Currently in working. React web app for auctioning items, featuring user authentication, item listing, and bidding functionality",
+    link: "https://github.com/danilodev6/auction-app",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-red",
     name: "Movie Finder API",
     description:
       "React app fetching movie data from external APIm demonstrating API calls and dynamic rendering",
@@ -186,14 +194,14 @@ const projects = [
       "Fetching random images and phrases from an API, delivers a unique combination with every refresh. Built with React, it provides a simple yet engaging experience.",
     link: "https://github.com/danilodev6/Phrase-Image-Fetch",
   },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Connect Four Game",
-    description:
-      "a React-powered strategy game where two players compete to connect four pieces in a row. With a sleek interface and real-time updates, state management and game logic",
-    link: "https://github.com/danilodev6/4inline",
-  },
+  // {
+  //   iconUrl: snapgram,
+  //   theme: "btn-back-pink",
+  //   name: "Connect Four Game",
+  //   description:
+  //     "a React-powered strategy game where two players compete to connect four pieces in a row. With a sleek interface and real-time updates, state management and game logic",
+  //   link: "https://github.com/danilodev6/4inline",
+  // },
   {
     iconUrl: car,
     theme: "btn-back-black",
