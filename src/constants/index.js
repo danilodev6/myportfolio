@@ -171,6 +171,14 @@ const projects = [
     link: "https://github.com/danilodev6/auction-app",
   },
   {
+    iconUrl: pricewise,
+    theme: "btn-back-green",
+    name: "Crowdfunding web3 dApp",
+    description:
+      "A decentralized crowdfunding application enabling creators to raise funds transparently through smart contracts built with thirdweb platform.",
+    link: "https://github.com/danilodev6/Crowdfunding-web3-dApp",
+  },
+  {
     iconUrl: summiz,
     theme: "btn-back-red",
     name: "Movie Finder API",
@@ -185,14 +193,6 @@ const projects = [
     description:
       "React-based game featuring state management , game logic and a dynamic UI",
     link: "https://github.com/danilodev6/TicTacToePRO",
-  },
-  {
-    iconUrl: pricewise,
-    theme: "btn-back-green",
-    name: "Crowdfunding web3 dApp",
-    description:
-      "A decentralized crowdfunding application enabling creators to raise funds transparently through smart contracts built with thirdweb platform.",
-    link: "https://github.com/danilodev6/Crowdfunding-web3-dApp",
   },
   // {
   //   iconUrl: estate,
