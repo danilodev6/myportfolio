@@ -187,13 +187,21 @@ const projects = [
     link: "https://github.com/danilodev6/TicTacToePRO",
   },
   {
-    iconUrl: estate,
-    theme: "btn-back-blue",
-    name: "Image-Phrase Fetching",
+    iconUrl: pricewise,
+    theme: "btn-back-green",
+    name: "Crowdfunding web3 dApp",
     description:
-      "Fetching random images and phrases from an API, delivers a unique combination with every refresh. Built with React, it provides a simple yet engaging experience.",
-    link: "https://github.com/danilodev6/Phrase-Image-Fetch",
+      "A decentralized crowdfunding application enabling creators to raise funds transparently through smart contracts built with thirdweb platform.",
+    link: "https://github.com/danilodev6/Crowdfunding-web3-dApp",
   },
+  // {
+  //   iconUrl: estate,
+  //   theme: "btn-back-blue",
+  //   name: "Image-Phrase Fetching",
+  //   description:
+  //     "Fetching random images and phrases from an API, delivers a unique combination with every refresh. Built with React, it provides a simple yet engaging experience.",
+  //   link: "https://github.com/danilodev6/Phrase-Image-Fetch",
+  // },
   // {
   //   iconUrl: snapgram,
   //   theme: "btn-back-pink",
